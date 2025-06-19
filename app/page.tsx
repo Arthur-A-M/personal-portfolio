@@ -34,6 +34,24 @@ export default function Home() {
           <p>Paragraph 3</p>
         </article>
         <hr />
+        <section className="flex justify-center items-center flex-col">
+          <h2>Portfolio</h2>
+          <ul className="flex flex-wrap gap-8">
+            <li>project1</li>
+            <li>project2</li>
+            <li>project3</li>
+            <li>See more</li>
+          </ul>
+        </section>
+        <hr />
+        <section className="flex justify-center items-center flex-col">
+          <h3>tech stack</h3>
+          <ul className="flex flex-wrap gap-8">
+            <li>tech1</li>
+            <li>tech2</li>
+            <li>tech3</li>
+          </ul>
+        </section>
       </main>
       <footer>
         <p className="text-center">Footer</p>
