@@ -26,7 +26,11 @@ export default function Home() {
           <h5 className="text-center">Title</h5>
           <p className="text-center">Sub title</p>
         </div>
-        <p className="text-center">main</p>
+        <article className="flex justify-center items-center flex-col">
+          <p>Paragraph 1</p>
+          <p>Paragraph 2</p>
+          <p>Paragraph 3</p>
+        </article>
       </main>
       <footer>
         <p className="text-center">Footer</p>
