@@ -9,6 +9,7 @@ export default function Home() {
           <a href="/" target="_blank" rel="noopener noreferrer">link2</a>
           <a href="/" target="_blank" rel="noopener noreferrer">link3</a>
         </nav>
+        <hr />
       </header>
       <main>
         <div>
@@ -26,11 +27,13 @@ export default function Home() {
           <h5 className="text-center">Title</h5>
           <p className="text-center">Sub title</p>
         </div>
+        <hr />
         <article className="flex justify-center items-center flex-col">
           <p>Paragraph 1</p>
           <p>Paragraph 2</p>
           <p>Paragraph 3</p>
         </article>
+        <hr />
       </main>
       <footer>
         <p className="text-center">Footer</p>
