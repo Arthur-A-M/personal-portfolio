@@ -1,19 +1,13 @@
 import Image from "next/image";
 
+import { Header } from "@/Components";
+
 import styles from "./home.module.css";
 
 export default function Home() {
   return (
     <div>
-      <header>
-        <nav className={styles.headerNav}>
-          <a href="/" target="_blank" rel="noopener noreferrer">About</a>
-          <a href="/" target="_blank" rel="noopener noreferrer">Portfolio</a>
-          <a href="/" target="_blank" rel="noopener noreferrer">Tech stack</a>
-          <a href="/" target="_blank" rel="noopener noreferrer">Socials</a>
-        </nav>
-        <hr />
-      </header>
+      <Header />
       <main>
         <div className={styles.hero}>
           <div>
