@@ -1,0 +1,44 @@
+.headerNav {
+    flex: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero {
+    flex: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.article {
+    flex: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.portfolio {
+    flex: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.techStack {
+    flex: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footerNav {
+    flex: auto;
+    display: flex;
+    justify-content: center;
+}

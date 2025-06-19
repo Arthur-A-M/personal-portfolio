@@ -1,10 +1,12 @@
 import Image from "next/image";
 
+import styles from "./home.module.css";
+
 export default function Home() {
   return (
     <div>
       <header>
-        <nav className="flex justify-center">
+        <nav className={styles.headerNav}>
           <a href="/" target="_blank" rel="noopener noreferrer">About</a>
           <a href="/" target="_blank" rel="noopener noreferrer">Portfolio</a>
           <a href="/" target="_blank" rel="noopener noreferrer">Tech stack</a>
@@ -13,8 +15,8 @@ export default function Home() {
         <hr />
       </header>
       <main>
-        <div>
-          <div className="flex justify-center">
+        <div className={styles.hero}>
+          <div>
             <Image
               src="/vercel.svg"
               alt="Vercel Logo"
@@ -24,20 +26,20 @@ export default function Home() {
               priority
             />
           </div>
-          <h3 className="text-center">Name</h3>
-          <h5 className="text-center">Title</h5>
-          <p className="text-center">Sub title</p>
+          <h3>Name</h3>
+          <h5>Title</h5>
+          <p>Sub title</p>
         </div>
         <hr />
-        <article className="flex justify-center items-center flex-col">
+        <article className={styles.article}>
           <p>Paragraph 1</p>
           <p>Paragraph 2</p>
           <p>Paragraph 3</p>
         </article>
         <hr />
-        <section className="flex justify-center items-center flex-col">
+        <section className={styles.portfolio}>
           <h2>Portfolio</h2>
-          <ul className="flex flex-wrap gap-8">
+          <ul>
             <li>project1</li>
             <li>project2</li>
             <li>project3</li>
@@ -45,9 +47,9 @@ export default function Home() {
           </ul>
         </section>
         <hr />
-        <section className="flex justify-center items-center flex-col">
+        <section className={styles.techStack}>
           <h3>tech stack</h3>
-          <ul className="flex flex-wrap gap-8">
+          <ul>
             <li>tech1</li>
             <li>tech2</li>
             <li>tech3</li>
@@ -56,7 +58,7 @@ export default function Home() {
       </main>
       <hr />
       <footer>
-        <nav className="flex justify-center">
+        <nav className={styles.footerNav}>
           <a href="/" target="_blank" rel="noopener noreferrer">Linked in</a>
           <a href="/" target="_blank" rel="noopener noreferrer">GitHub</a>
           <a href="/" target="_blank" rel="noopener noreferrer">Email</a>
