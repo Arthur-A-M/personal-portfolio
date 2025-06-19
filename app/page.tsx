@@ -5,9 +5,10 @@ export default function Home() {
     <div>
       <header>
         <nav className="flex justify-center">
-          <a href="/" target="_blank" rel="noopener noreferrer">link1</a>
-          <a href="/" target="_blank" rel="noopener noreferrer">link2</a>
-          <a href="/" target="_blank" rel="noopener noreferrer">link3</a>
+          <a href="/" target="_blank" rel="noopener noreferrer">About</a>
+          <a href="/" target="_blank" rel="noopener noreferrer">Portfolio</a>
+          <a href="/" target="_blank" rel="noopener noreferrer">Tech stack</a>
+          <a href="/" target="_blank" rel="noopener noreferrer">Socials</a>
         </nav>
         <hr />
       </header>
@@ -53,8 +54,13 @@ export default function Home() {
           </ul>
         </section>
       </main>
+      <hr />
       <footer>
-        <p className="text-center">Footer</p>
+        <nav className="flex justify-center">
+          <a href="/" target="_blank" rel="noopener noreferrer">Linked in</a>
+          <a href="/" target="_blank" rel="noopener noreferrer">GitHub</a>
+          <a href="/" target="_blank" rel="noopener noreferrer">Email</a>
+        </nav>
       </footer>
     </div>
   );
