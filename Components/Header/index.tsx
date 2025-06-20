@@ -15,7 +15,6 @@ export default function Header() {
                     <a key={link.name} className={anchorStyles} href={link.href} target="_blank" rel="noopener noreferrer">{link.name}</a>
                 ))}
             </nav>
-            <hr />
         </header>
     );
 }
