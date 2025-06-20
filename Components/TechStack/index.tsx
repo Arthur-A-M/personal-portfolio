@@ -7,7 +7,7 @@ import styles from "./techStack.module.css";
 export default function TechStack() {
     return (
         <section id="techstack" className={styles.techStack}>
-            <h3>tech stack</h3>
+            <h3 className={styles.title}>Tech Stack</h3>
             <ul className={styles.list}>
                 {TechStackData.map(({ name, icon }) => (
                     <li className={styles.tech} key={name} title={name}>

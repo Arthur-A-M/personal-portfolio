@@ -6,6 +6,12 @@
     flex-direction: column;
 }
 
+.title {
+    text-align: center;
+    font-size: xx-large;
+    margin: 20px;
+}
+
 .list {
     flex: auto;
     display: flex;
