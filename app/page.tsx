@@ -40,7 +40,6 @@ export default function Home() {
             <li>See more</li>
           </ul>
         </section>
-        <hr />
         <TechStack />
       </main>
       <Footer />
