@@ -50,7 +50,6 @@ export default function Home() {
           </ul>
         </section>
       </main>
-      <hr />
       <Footer />
     </div>
   );
