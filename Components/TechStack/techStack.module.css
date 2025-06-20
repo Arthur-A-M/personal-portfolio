@@ -6,6 +6,16 @@
     flex-direction: column;
 }
 
+.list {
+    flex: auto;
+    display: flex;
+    width: 60%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
 .tech {
     flex: auto;
     display: flex;

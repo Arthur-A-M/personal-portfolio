@@ -8,10 +8,10 @@ export default function TechStack() {
     return (
         <section id="techstack" className={styles.techStack}>
             <h3>tech stack</h3>
-            <ul>
+            <ul className={styles.list}>
                 {TechStackData.map(({ name, icon }) => (
                     <li className={styles.tech} key={name} title={name}>
-                        <Image src={icon} alt={name} width={50} height={50} />
+                        <Image src={icon} alt={name} width={90} height={90} />
                     </li>
                 ))}
             </ul>
