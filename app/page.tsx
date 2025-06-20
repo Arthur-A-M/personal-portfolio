@@ -25,13 +25,13 @@ export default function Home() {
           <p>Sub title</p>
         </div>
         <hr />
-        <article className={styles.article}>
+        <article id="about" className={styles.article}>
           <p>Paragraph 1</p>
           <p>Paragraph 2</p>
           <p>Paragraph 3</p>
         </article>
         <hr />
-        <section className={styles.portfolio}>
+        <section id="portfolio" className={styles.portfolio}>
           <h2>Portfolio</h2>
           <ul>
             <li>project1</li>
@@ -41,7 +41,7 @@ export default function Home() {
           </ul>
         </section>
         <hr />
-        <section className={styles.techStack}>
+        <section id="techstack" className={styles.techStack}>
           <h3>tech stack</h3>
           <ul>
             <li>tech1</li>
@@ -52,7 +52,7 @@ export default function Home() {
       </main>
       <hr />
       <footer>
-        <nav className={styles.footerNav}>
+        <nav id="socials" className={styles.footerNav}>
           <a href="/" target="_blank" rel="noopener noreferrer">Linked in</a>
           <a href="/" target="_blank" rel="noopener noreferrer">GitHub</a>
           <a href="/" target="_blank" rel="noopener noreferrer">Email</a>
