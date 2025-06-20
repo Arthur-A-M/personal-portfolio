@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-import { Header } from "@/Components";
+import { Header, Footer } from "@/Components";
 
 import styles from "./home.module.css";
 
@@ -51,13 +51,7 @@ export default function Home() {
         </section>
       </main>
       <hr />
-      <footer>
-        <nav id="socials" className={styles.footerNav}>
-          <a href="/" target="_blank" rel="noopener noreferrer">Linked in</a>
-          <a href="/" target="_blank" rel="noopener noreferrer">GitHub</a>
-          <a href="/" target="_blank" rel="noopener noreferrer">Email</a>
-        </nav>
-      </footer>
+      <Footer />
     </div>
   );
 }

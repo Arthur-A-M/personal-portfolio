@@ -29,9 +29,3 @@
     align-items: center;
     flex-direction: column;
 }
-
-.footerNav {
-    flex: auto;
-    display: flex;
-    justify-content: center;
-}
