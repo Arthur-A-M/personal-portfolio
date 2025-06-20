@@ -19,6 +19,7 @@
 .tech {
     flex: auto;
     display: flex;
+    max-width: 30%;
     justify-content: center;
     align-items: center;
     flex-direction: column;
