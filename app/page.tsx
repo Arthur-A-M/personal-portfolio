@@ -1,6 +1,11 @@
 import Image from "next/image";
 
-import { Header, Footer, TechStack } from "@/Components";
+import {
+  Header,
+  Footer,
+  TechStack,
+  Article
+} from "@/Components";
 
 import styles from "./home.module.css";
 
@@ -25,11 +30,7 @@ export default function Home() {
           <p>Sub title</p>
         </div>
         <hr />
-        <article id="about" className={styles.article}>
-          <p>Paragraph 1</p>
-          <p>Paragraph 2</p>
-          <p>Paragraph 3</p>
-        </article>
+        <Article />
         <hr />
         <section id="portfolio" className={styles.portfolio}>
           <h2>Portfolio</h2>
