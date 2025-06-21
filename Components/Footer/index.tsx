@@ -7,7 +7,7 @@ import { icons, iconSize } from "./data";
 export default function Footer() {
     return (
         <footer className={styles.footer}>
-            <h3 className={styles.title}>Contatos</h3>
+            <h3 className={styles.title}>Socials</h3>
             <nav id="socials" className={styles.footerNav}>
                 {icons.map(({ name, href, image, className }) => (
                     <a key={name} href={href} target="_blank" rel="noopener noreferrer" className={className}>

@@ -1,30 +1,17 @@
 import styles from "./article.module.css";
 
 export default function Article() {
-    const poem: string = `
-    Programo app de treino porque malho há anos
-    Programo jogos, pois sou gamer
-
-    Recrio apps de tarefas porque já me familiarizei com os originais
-    Recrio calculadoras, pois entendo seus cálculos
-
-    Não crio quando apenas sei como criar
-    Crio quando entendo o que vou criar
-    `;
     return (
         <article id="about" className={styles.article}>
             <h3 className={styles.title}>Sobre mim</h3>
-            <h4 className={styles.subtitle}>Sou um desenvolvedor pragmático e holistico. </h4>
-            <p className={styles.paragraph}>
-                Pragmático: Minhas criações sempre precisam ter aplicação prática.
-                Sempre pensadas com base nas necessidades que observo e testados, pessoalmente para garantir sua utilidade.
-            </p>
-            <h5 className={styles.poemtitle}>Holístico</h5>
-            <pre
-                dangerouslySetInnerHTML={{
-                    __html: poem,
-                }}
-            />
+            <p className={styles.paragraph}>Como desenvolvedor, 
+                minha filosofia é sempre adicionar valor, 
+                por meio de projetos que oferecem aplicações praticas para o usuário.
+                Sempre entendendo tanto a necessidade, a dor do cliente, como a solução, 
+                o produto em nível técnico; 
+                evitando acidentes e uso desnecessários de recursos.
+                Como estudante, acredito que o profissional deve ser T shaped. 
+                Entendendo o contexto no qual está envolvida sua habilidade prática e buscando constante aprimoramento. </p>
         </article>
     );
 }

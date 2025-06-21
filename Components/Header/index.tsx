@@ -3,10 +3,10 @@ import styles from "./header.module.css";
 export default function Header() {
     const anchorStyles = `${styles.anchor} ${styles.anchorActive}`;
     const navLinks = [
-        { name: "Sobre mim", href: "#about" },
-        { name: "Portfólio", href: "#portfolio" },
+        { name: "About", href: "#about" },
+        { name: "Portfolio", href: "#portfolio" },
         { name: "Tech stack", href: "#techstack" },
-        { name: "Contatos", href: "#socials" },
+        { name: "Socials", href: "#socials" },
     ];
     return (
         <header className={styles.header}>
