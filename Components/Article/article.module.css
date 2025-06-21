@@ -16,6 +16,26 @@
     margin: 20px;
 }
 
+.subtitle {
+    flex: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: x-large;
+    margin: 20px;
+}
+
+.poemtitle {
+    flex: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: large;
+    margin: 20px;
+}
+
 .paragraph {
     flex: auto;
     width: 60%;
