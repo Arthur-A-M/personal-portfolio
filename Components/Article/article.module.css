@@ -5,3 +5,23 @@
     align-items: center;
     flex-direction: column;
 }
+
+.title {
+    flex: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: xx-large;
+    margin: 20px;
+}
+
+.paragraph {
+    flex: auto;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
