@@ -5,3 +5,28 @@
     align-items: center;
     flex-direction: column;
 }
+
+.photoContainer {
+    flex: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+}
+
+.photo {
+    border-radius: 50%;
+    width: 280px;
+    height: 280px;
+    border: 2px solid white
+}
+
+.title {
+    margin: 10px;
+    font-size: xx-large;
+}
+
+.subtitle {
+    margin: 10px;
+    font-size: x-large;
+}
