@@ -1,6 +1,6 @@
 import styles from "./header.module.css";
 
-export default function Header() {
+export default function Header(): React.ReactElement {
     const anchorStyles = `${styles.anchor} ${styles.anchorActive}`;
     const navLinks = [
         { name: "Sobre mim", href: "#about" },

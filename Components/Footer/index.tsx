@@ -4,7 +4,7 @@ import styles from "./footer.module.css";
 
 import { icons, iconSize } from "./data";
 
-export default function Footer() {
+export default function Footer(): React.ReactElement {
     return (
         <footer className={styles.footer}>
             <h3 className={styles.title}>Contatos</h3>

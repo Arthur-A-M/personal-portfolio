@@ -8,7 +8,7 @@ import {
 
 import styles from "./home.module.css";
 
-export default function Home() {
+export default function Home(): React.ReactElement {
   return (
     <div>
       <Header />

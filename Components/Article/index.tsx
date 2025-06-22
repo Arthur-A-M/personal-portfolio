@@ -1,6 +1,6 @@
 import styles from "./article.module.css";
 
-export default function Article() {
+export default function Article(): React.ReactElement {
     const poem: string = `
     Programo app de treino porque malho há anos
     Programo jogos, pois sou gamer

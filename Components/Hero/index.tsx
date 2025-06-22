@@ -1,9 +1,8 @@
-import React from "react";
 import Image from "next/image";
 
 import styles from "./hero.module.css";
 
-export default function Hero() {
+export default function Hero(): React.ReactElement {
     return (
     <div className={styles.hero}>
         <div>
