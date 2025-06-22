@@ -15,7 +15,6 @@ export default function Home(): React.ReactElement {
       <main>
         <Hero />
         <Article />
-        <hr />
         <section id="portfolio" className={styles.portfolio}>
           <h2>Portfolio</h2>
           <ul>
